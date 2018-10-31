@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbellaic <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mbellaic <mbellaic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/05 20:54:00 by mbellaic          #+#    #+#             */
-/*   Updated: 2018/09/12 00:45:02 by mbellaic         ###   ########.fr       */
+/*   Updated: 2018/10/31 13:35:52 by mbellaic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,13 +46,13 @@ int					ft_toupper(int c);
 int					ft_tolower(int c);
 int					ft_strequ(char const *s1, char const *s2);
 int					ft_strnequ(char const *s1, char const *s2, size_t n);
-int					ft_putchar(char c);
+int					ft_putchar(int c);
 void				ft_putstr(const char *s);
 void				ft_putendl(char const *s);
 void				ft_putnbr(int n);
 void				*ft_memset(void *str, int c, size_t n);
 void				ft_bzero(void *s, size_t n);
-void				ft_putchar_fd(char c, int fd);
+void				ft_putchar_fd(int c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
