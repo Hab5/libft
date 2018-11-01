@@ -81,6 +81,7 @@ SRC = 	ft_strlen.c \
 		ft_lstiter.c \
 		ft_lstmap.c \
 		ft_strjoinfree.c \
+		ft_madeby.c \
 
 OBJ = $(SRC:.c=.o)
 
